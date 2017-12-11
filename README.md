@@ -19,5 +19,11 @@ Le site est déployé à l'aide de Github Pages, et ne contient que du HTML / CS
 Le site n'utilise pas de système de build, il faut donc utiliser SASS sur votre propre machine de développement pour
 générer les fichiers css.
 
+Pour cela, vous aurez besoin d'[installer SASS](http://sass-lang.com/install) puis d'utiliser le watcher suivant lors des changements de css :
+
+```bash
+sass --watch assets/sass/gaia.scss:assets/css/gaia.css
+```
+
 Pour proposer une modification, faire une branche à partir de `master`, puis proposez une pull request directement sur
 `master`. Si vous avez besoin d'aide, ouvrez une issue sur le repository Github et nous vous aiderons.
